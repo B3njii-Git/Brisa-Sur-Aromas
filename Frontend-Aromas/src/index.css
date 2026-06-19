@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-brand-950: #0f1c24; /* deep southern slate */
+  --color-brand-900: #1b2d39;
+  --color-brand-800: #293f4e;
+  --color-brand-700: #3b5364;
+  --color-brand-600: #4f6a7d;
+  --color-brand-500: #668297;
+  --color-brand-400: #88a3b8;
+  --color-brand-300: #aac1d3;
+  --color-brand-200: #cbdce9;
+  --color-brand-100: #e4eef6;
+  --color-brand-50: #f2f7fb;
+
+  --color-forest-950: #081a12;
+  --color-forest-900: #0f2c1f;
+  --color-forest-600: #2a5c43;
+  --color-forest-500: #387c5b;
+  --color-forest-200: #a7d3bf;
+
+  --animate-fade-in-up: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom base smoothing */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fcfdfe;
+  color: #1b2d39;
+  font-family: var(--font-sans);
+}
