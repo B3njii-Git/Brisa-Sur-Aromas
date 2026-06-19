@@ -1,0 +1,6 @@
+{
+  "name": "Brisa Sur Aromas",
+  "description": "Una tienda de perfumes elegante y minimalista inspirada en la frescura del sur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
